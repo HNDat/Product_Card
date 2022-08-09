@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: segoe ui;
+    box-sizing: border-box;
+    cursor: pointer;
+    overflow: hidden;
+ }
+img{
+    width: 100%;
+}
+html{
+    background-color: #000;
+}
+body{
+    min-height: 100vh;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    font-family: segoe ui;
+    width: 600px;
+    height: 400px;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+}
+.thumb{
+    text-transform: uppercase;
+    width: 300px;
+    height: 400px;
+    z-index: 1;
+    transition: 0.8s all;
+}
+.name{
+    text-transform: uppercase;
+}
+.desc h3{
+    text-transform: uppercase;
+    color: #1371ff;
+    text-align: center;
+    font-size: 16px;
+}
+.desc{
+    width: 300px;
+    height: 400px;
+    background: #0e1012;
+    transition: 0.8s all;
+    padding-top: 20px;
+    position: absolute;
+}
+.desc .name, .desc .size{
+    font-weight: bold;
+    color: #a7a4a4;
+    font-size: 20px;
+    margin-top: 47px;
+    margin-left: 46px;
+}
+.desc p{
+    margin-left: 46px;
+    width: 206px;
+    font-size: 14px;
+    color: #1371ff;
+    margin-top: 6px;
+}
+.listsize{
+    display: flex;
+    margin-left: 46px;
+    gap: 15px;
+    margin-top: 23px;
+}
+.listsize .item{
+   width: 28px;
+   height: 28px;
+   background: #ce0120;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 12px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.price{
+    margin-left: 46px;
+    margin-right: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background: linear-gradient(90deg,#16d9e3 0%,#30c7ec 47%,#46aef7 100%);
+    color: #fff;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+}
+button:hover{
+    background: linear-gradient(90deg,#2af498 0%,#009efd 100%);
+    transition: 0.5s;
+}
+.card:hover .desc{
+    transform: translateX(150px);
+}
+.card:hover .thumb{
+    transform: translateX(-150px);
+}
+
+/* .card1{
+    font-family: segoe ui;
+    width: 600px;
+    height: 400px;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+}
+.thumb1{
+    text-transform: uppercase;
+    width: 300px;
+    height: 400px;
+    z-index: 1;
+    transition: 0.8s all;
+}
+.desc1 h3{
+    text-transform: uppercase;
+    color: #1371ff;
+    text-align: center;
+    font-size: 16px;
+}
+.desc1{
+    width: 300px;
+    height: 400px;
+    background: #0e1012;
+    transition: 0.8s all;
+    padding-top: 20px;
+    position: absolute;
+}
+.desc1 .name, .desc1 .size{
+    font-weight: bold;
+    color: #a7a4a4;
+    font-size: 20px;
+    margin-top: 47px;
+    margin-left: 46px;
+}
+.desc1 p{
+    margin-left: 46px;
+    width: 206px;
+    font-size: 14px;
+    color: #1371ff;
+    margin-top: 6px;
+}
+.info1{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.card1:hover .desc1{
+    transform: translateY(200px);
+}
+.card1:hover .thumb1{
+    transform: translateY(-200px);
+} */
